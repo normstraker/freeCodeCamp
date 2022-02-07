@@ -128,7 +128,7 @@
 
 ### Applied Accessibility
 
-- Add a text alternative to images for visually impaired accessibility - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/add-a-text-alternative-to-images-for-visually-impaired-accessibility) - [Solution](appliedAccessibility\01add-a-text-alternative-to-images-for-visually-impaired-accessibility.html)
+- Add a text alternative to images for visually impaired accessibility - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/add-a-text-alternative-to-images-for-visually-impaired-accessibility) - [Solution](appliedAccessibility/01add-a-text-alternative-to-images-for-visually-impaired-accessibility.html)
 
 - Know when alt text should be left blank - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/know-when-alt-text-should-be-left-blank) - [Solution](appliedAccessibility\02know-when-alt-text-should-be-left-blank.html)
 - Use headings to show hierarchical relationships of content - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/use-headings-to-show-hierarchical-relationships-of-content) - [Solution](appliedAccessibility\03use-headings-to-show-hierarchical-relationships-of-content.html)
