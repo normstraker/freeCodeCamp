@@ -154,3 +154,11 @@
 - Make links navigable with HTML access keys - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/make-links-navigable-with-html-access-keys) - [Solution](appliedAccessibility/20make-links-navigable-with-html-access-keys.html)
 - Use tabindex to add keyboard focus to an element - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/use-tabindex-to-add-keyboard-focus-to-an-element) - [Solution](appliedAccessibility/21use-tabindex-to-add-keyboard-focus-to-an-element.html)
 - Use tabindex to specify the order of keyboard focus for several elements - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elements) - [Solution](appliedAccessibility/22use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elements.html)
+
+### Responsive Web Design Principles
+
+- Create a media query - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/create-a-media-query) - [Solution](responsiveWebDesign\01create-a-media-query.html)
+
+- Make an image responsive - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/make-an-image-responsive) - [Solution](responsiveWebDesign\02make-an-image-responsive.html)
+- Use a retina image for higher resolution displays - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/use-a-retina-image-for-higher-resolution-displays) - [Solution](responsiveWebDesign\03use-a-retina-image-for-higher-resolution-displays.html)
+- Make typography responsive - [Lesson Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/make-typography-responsive) - [Solution](responsiveWebDesign\04make-typography-responsive.html)
