@@ -1,0 +1,8 @@
+freeCodeCamp - Tribute page
+
+- complete project on vscode
+- sign up with codepen.io
+- test on codepen.io
+- create live page with github pages
+- submit project with github link (if doesn't work)
+- submit project on codepen.io
