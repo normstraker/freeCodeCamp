@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stupid Questions Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Dumb Questions You Should Answer Right Now</h1>
+      <p class="description text-center" id="description">The questions are of absolutely no substance. They do not matter. There is nothing challenging or controversial about them. They are stupid, dumb wastes of time. <strong>So serious answers only please! </strong></p>
+    </header>
+    
+    <!-- form start -->
+    <form id="survey-form">
+
+      <!-- name -->
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input class="form-control" id="name" type="text" name="name" placeholder="enter your name" required>
+      </div>
+
+      <!-- email -->
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="enter your email" required>
+      </div>
+
+      <!-- age -->
+      <div class="form-group">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="age">
+      </div>
+
+      <!-- role dropdown -->
+      <p>What is the percent chance of you eating food recently dropped on the ground when no one's around? I'm not talking about wet, slimy stuff like ham that you'd have to be deranged to eat off the floor. Something dry, like a cracker or cookie.</p>
+      <div class="form-group">
+        <select name="role" id="dropdown" class="form-control" required>
+          <option disabled selected value>Select Pitiful Reason Here</option>
+          <option value="100%">100% - ain't no shame in my game</option>
+          <option value="80%">80% -- but as I'm doing it I'll act like it's 0% to make myself feel better</option>
+          <option value="60%">60% -- and I'll even pretend the 5 Second Rule is a legitimate excuse for being 100% disgusting</option>
+          <option value="40%">40% -- largely dependent on remembering if I've recently walked on that specific spot</option>
+          <option value="20%">20% -- because I almost find that disgusting. Almost. I'm this close</option>
+          <option value="0%">0% -- because I'm a liar</option>
+          <option value="other">Other -- because Luis sucks and only let me choose increments of 20. (Luis' Note: Fine. Write your highly specific answer. Just, please, don't write 73%. I do not like that number)</option>
+        </select>
+      </div>
+      
+      <!-- recommend buttons -->
+      <div class="form-group">
+        <p>How small and thin do you let a bar of soap get before you replace it?</p>
+        <label>
+          <input 
+          name="bar-soap" 
+          value="single" 
+          type="radio" 
+          class="input-radio" 
+          checked
+          />I throw them away after a single use
+        </label>
+        <label>
+          <input 
+          name="bar-soap" 
+          value="jelly" 
+          type="radio" 
+          class="input-radio"
+          />About halfway, after discovering they don't have a jelly center
+        </label>
+        <label>
+          <input 
+          name="bar-soap" 
+          value="bendy" 
+          type="radio" 
+          class="input-radio"
+          />When it's thin and bendy, like an orange peel that's socially acceptable to rub on my navel
+        </label>
+        <label>
+          <input 
+          name="bar-soap" 
+          value="milk" 
+          type="radio" 
+          class="input-radio"
+          />I use it until it looks like a milk-flavored breath strip
+        </label>
+        <label>
+          <input 
+          name="bar-soap" 
+          value="memory" 
+          type="radio" 
+          class="input-radio"
+          />Until it no longer exists and I'm rubbing the memory of soap on my body
+        </label>
+      </div>
+      
+      <!-- features dropdown -->
+      <div class="form-group">
+        <p>You can choose only one body part to grow on your body-part farm for the upcoming harvest season. Which body part do you grow?</p>
+        <select name="bodypart" id="body-part" class="form-control" required>
+          <option disabled selected value>Select a body part</option>
+          <option value="thumbs">thumbs</option>
+          <option value="kneecaps">knee-caps</option>
+          <option value="middletoe">middle toe</option>
+          <option value="elongatedearlobes">elongated earlobes</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      
+      <!-- improve checkboxes -->
+      <div class="form-group">
+        <p>You're the captain of a starship on a five-year mission to explore new worlds deep in the farthest reaches of the Milky Way galaxy. You'll make first contact with new, exotic forms of sentient alien life with whom you'll get into wild adventures of dare-doing and swashbuckling, occasionally engaging these species in debates on war, love, death, and morality. What kind of shoes do you wear? <span class="shoes">(Check more than one if you're too self absorbed to select only one)</span></p>
+        <label>
+          <input 
+          value="loafers" 
+          name="shoes" 
+          type="checkbox" 
+          class="input-checkbox">Super comfortable loafers
+          
+        </label>
+        <label>
+          <input 
+          value="adidas" 
+          name="shoes" 
+          type="checkbox" 
+          class="input-checkbox">White shell-top Adidas with black stripes
+
+        </label>
+        <label>
+          <input 
+          value="crocs" 
+          name="shoes" 
+          type="checkbox" 
+          class="input-checkbox">Crocs with the heel-strap down
+
+        </label>
+        <label>
+          <input 
+          value="stiletto" 
+          name="shoes" 
+          type="checkbox" 
+          class="input-checkbox">A sensual stiletto
+
+        </label>
+        <label>
+          <input 
+          value="taylors" 
+          name="shoes" 
+          type="checkbox" 
+          class="input-checkbox">Chuck Taylors, because in the background of this bright and shiny sci-fi future is a dystopian totalitarian government that controls everything and has chosen Chucks as the shoe of the oppressed galactic federation
+
+        </label>
+        <label>
+          <input 
+          value="other" 
+          name="shoes" 
+          type="checkbox" 
+          class="input-checkbox">Other
+        </label>
+      </div>
+
+      <!-- comments -->
+      <div class="form-group">
+        <p>Any Dumb comments or stupid suggestions?</p>
+        <textarea name="comment" id="comments" class="input-textarea" placeholder="Ignored comments here please..."></textarea>
+      </div>
+
+      <!-- submit button -->
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit already!</button>
+      </div>
+
+    </form>
+
+    <!-- form end -->
+  </div>
+</body>
+</html>
