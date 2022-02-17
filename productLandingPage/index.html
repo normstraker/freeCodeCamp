@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - freeCodeCamp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- whole page wrapper -->
+    <div class="page-wrapper">
+      <!-- header -->
+      <header id="header">
+        <!-- img logo -->
+        <div class="logo">
+          <img src="./snailsRus.png" alt="snails logo" id="header-img" />
+        </div>
+        <!-- ul li a links -->
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#selection" class="nav-link">Selection</a></li>
+            <li><a href="#preparation" class="nav-link">Preparation</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- end of header -->
+      <!-- container -->
+      <div class="container">
+        <!-- hero -->
+        <section id="hero">
+          <!-- h2 descriptor -->
+          <h2>Choice snails, prepared your way!</h2>
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <!-- input email -->
+            <input
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Your email here"
+              required
+            />
+            <!-- button submit -->
+            <input id="submit" type="submit" value="let's eat!" class="btn" />
+          </form>
+        </section>
+      </div>
+      <!-- end of hero -->
+
+      <!-- features section -->
+      <div class="container">
+        <section id="features">
+          <!-- section 1st features -->
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-leaf"></i></div>
+            <div class="desc">
+              <h2>Delicately Plucked</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quae fugit, dolore porro sequi corporis rerum laboriosam veritatis temporibus cupiditate.</p>
+            </div>
+          </div>
+          <!-- end of section 1st features -->
+          <!-- section 2nd features -->
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-person-hiking"></i></div>
+            <div class="desc">
+              <h2>Super Fast Delivery</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quae fugit, dolore porro sequi corporis rerum laboriosam veritatis temporibus cupiditate.</p>
+            </div>
+          </div>
+          <!-- end of section 2nd features -->
+          <!-- section 3rd features -->
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-dollar-sign"></i><i class="fa-solid fa-dollar-sign"></i><i class="fa-solid fa-dollar-sign"></i></div>
+            <div class="desc">
+              <h2>There How Much?!</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quae fugit, dolore porro sequi corporis rerum laboriosam veritatis temporibus cupiditate.</p>
+            </div>
+          </div>
+          <!-- end of section 3rd features -->
+        </section>
+        <!-- end of features section -->
+        <!-- iframe video section -->
+        <section id="how-it-works">
+          <iframe src="https://www.youtube.com/watch?v=-ju7_ZORsZw" height="315" frameborder="0" id="video" allowfullscreen>
+          </iframe>
+        </section>
+        <!-- end of iframe video section -->
+        <!-- pricing section -->
+        <section id="pricing">
+          <!-- 1st pricing -->
+          <div class="product" id="gutter">
+            <div class="snail">Gutter Snail</div>
+            <h2>$1.20/pound</h2>
+            <ol>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+            <button class="btn">Gag!</button>
+          </div>
+          <!-- end of 1st pricing -->
+          <!-- 2nd pricing -->
+          <div class="product" id="yard">
+            <div class="snail">Yard Snail</div>
+            <h2>$5/snail</h2>
+            <ol>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+            <button class="btn">Ugh, oh yeah that's good!</button>
+          </div>
+          <!-- end of 2nd pricing -->
+          <!-- 3rd pricing -->
+          <div class="product" id="french">
+            <div class="snail">French Snail</div>
+            <h2>$100/plate</h2>
+            <ol>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+            <button class="btn">Sucker!</button>
+          </div>
+          <!-- end of 3rd pricing -->
+        </section>
+          <!-- end of pricing section -->
+        <!-- footer -->
+        <footer>
+          <ul>
+            <li><a href="#">Sue</a></li>
+            <li><a href="#">Us</a></li>
+            <li><a href="#">Here</a></li>
+          </ul>
+          <span>Copyright 1920, snailsRus</span>
+        </footer>
+        <!-- end of footer -->
+        <!-- end of container -->
+      </div>
+    </div>
+    <!-- end of whole page wrapper -->
+  </body>
+</html>
