@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-black: #222;
+  --main-orange: #e99700;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+  img.project-image {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+  img.project-image {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+nav {
+  background-color: var(--main-orange);
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  border-bottom: 2px solid red;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  display: flex;
+  margin-right: 1rem;
+  list-style: none;
+}
+
+a {
+  color: var(--main-black);
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+body {
+  background-color: var(--main-black);
+}
+/* ---------------- */
+/* projects section */
+/* ---------------- */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 1rem;
+}
+
+.projects-section-header {
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--main-orange);
+  max-width: 1140px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Tahoma, sans-serif;
+  padding-top: 100px;
+}
+
+.project-section {
+  background-color: red;
+  height: 100vh;
+}
+
+.project-image {
+  width: 320px;
+  height: 320px;
+}
+
+.projects-grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 1.5rem;
+  width: 100%;
+}
+
+.contact-section {
+  height: calc(100vh - 100px);
+}
+
+h1 {
+  color: var(--main-orange);
+  font-size: 15rem;
+  padding-bottom: 3rem;
+}
+
+img.norm-img {
+  margin-bottom: 4rem;
+  width: auto;
+  max-height: 300px;
+  border-radius: 30% 30% 30% 30%;
+  animation: image 4s linear infinite;
+  z-index: -1;
+}
+
+.welcome {
+  color: red;
+  font-size: 4rem;
+}
+
+.project-title {
+  color: var(--main-black);
+  font-size: 2rem;
+}
+
+@keyframes image {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-header {
+  font-size: 2rem;
+  color: var(--main-orange);
+}
+
+.contact-paragraph {
+  color: var(--main-orange);
+  font-size: 2rem;
+}
+.contact-details {
+  color: red;
+}
+
+.contact-links {
+  display: flex;
+}
